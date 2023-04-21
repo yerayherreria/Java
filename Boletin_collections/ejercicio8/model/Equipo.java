@@ -144,9 +144,9 @@ public class Equipo<T> {
 
 	public int ciudadesDistintas() {
 		 Set<String> ciudades = new HashSet<>();
-         for(Alumno a : this.listaAlumnos) {
-            ciudades.add(a.getCiudad());
-         }
-         return ciudades.size();
+		 for(Alumno a : this.listaAlumnos) {
+		    ciudades.add(a.getCiudad());
+		 }
+         	return ciudades.size();
 	}
 }
