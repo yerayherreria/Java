@@ -147,6 +147,6 @@ public class Equipo<T> {
 		 for(Alumno a : this.listaAlumnos) {
 		    ciudades.add(a.getCiudad());
 		 }
-         	return ciudades.size();
+         	 return ciudades.size();
 	}
 }
